@@ -555,16 +555,20 @@ function AdminV4({setPage,toast,secciones}){
         {activeMenu==='importar' && <AdminImportar toast={toast} secciones={secciones} />}
         {activeMenu==='categorias' && <AdminCategorias toast={toast} secciones={secciones} />}
         {activeMenu==='clientes' && <AdminClientes toast={toast} />}
+        {activeMenu==='mayorista' && <AdminClientes toast={toast} />}
         {activeMenu==='cupones' && <AdminCupones toast={toast} secciones={secciones} />}
         {activeMenu==='promociones' && <AdminPromociones toast={toast} secciones={secciones} />}
         {activeMenu==='ventas_realizadas' && <AdminVentas toast={toast} />}
+        {activeMenu==='ordenes' && <AdminVentas toast={toast} />}
         {activeMenu==='carritos' && <AdminCarritos toast={toast} />}
         {activeMenu==='diseno' && <AdminDiseno toast={toast} secciones={secciones} />}
         {activeMenu==='menus' && <AdminMenus toast={toast} secciones={secciones} />}
         {activeMenu==='paginas' && <AdminPaginas toast={toast} secciones={secciones} />}
+        {activeMenu==='blogs' && <AdminPaginas toast={toast} secciones={secciones} />}
         {activeMenu==='apps' && <AdminApps toast={toast} secciones={secciones} />}
         {activeMenu==='config' && <AdminConfig toast={toast} secciones={secciones} />}
         {activeMenu==='estadisticas' && <AdminEstadisticas toast={toast} />}
+        {(activeMenu==='mi-cuenta' || activeMenu==='mi_cuenta') && <div className="admin-card"><h3>Mi cuenta</h3><p>Logueado como admin. Usá Configuraciones para cambiar WhatsApp y datos.</p></div>}
       </main>
     </div>
   );
