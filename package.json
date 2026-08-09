@@ -1,7 +1,7 @@
 {
-  "name": "lean-droid-v4-fixed",
+  "name": "sistema-unificado-frontend",
   "private": true,
-  "version": "4.1.0-fixed",
+  "version": "4.4.1-fixed",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "axios": "^1.6.0"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
