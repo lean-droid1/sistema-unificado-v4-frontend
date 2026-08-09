@@ -1,7 +1,7 @@
 {
-  "name": "sistema-unificado-frontend",
+  "name": "lean-droid-working",
   "private": true,
-  "version": "4.4.1-fixed",
+  "version": "4.5.0-working",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,9 +14,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.0",
-    "vite": "^5.0.0",
-    "tailwindcss": "^3.4.0",
-    "postcss": "^8.4.0",
-    "autoprefixer": "^10.4.0"
+    "vite": "^5.0.0"
   }
 }
